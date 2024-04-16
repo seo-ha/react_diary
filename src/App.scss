@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {margin: 0; padding: 0; box-sizing: border-box;font-family: 'TTLaundryGothicB';}
+li {list-style: none;}
+a {text-decoration: none;}
+input, select,textarea {outline: none; border: none; padding: 0 15px; font-size: 16px;border-radius: 5px;color: black; background-color: #eaeaea;}
+ 
+header {position: relative; height: 80px; border-bottom: 1px solid #eaeaea; display: flex; align-items: center; justify-content: space-between; padding: 0 20px;}
+header h1 {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 30px; font-weight: 600; }
+
+button {
+    padding: 10px 15px; border-radius: 5px;
+    outline: none; border: none; cursor: pointer;
+    font-size: 16px; font-weight: 600;
+    background-color: #efefef; color: black;
+    
+    &.positive {
+        background-color: rgb(226, 31, 31);
+        color: white;
+    }
+    &.negative {
+        background-color: #13a01e ;
+        color: white;
+    }
+}
+
+.DiaryLIst {
+    
+    padding: 20px;
+    
+    .menu_bar {
+        display: flex; align-items: center; height: 40px; 
+        
+        select {
+            width: 120px; height: 100%; margin-right: 15px;
+            
+        }
+        
+        button {flex-grow: 1;}
+    }
+    
+    .DiaryItem {
+        
+        display: flex; align-items: center;
+        padding: 20px 0;
+        
+        .imgBox {
+            
+            width: 120px; height: 80px; border-radius: 5px; margin-right: 15px;
+            
+            img { width: 100%; height: 100%; object-fit: contain;}
+            
+            &.imgBox1 {background-color: rgb(100, 201, 100);}
+            &.imgBox2 {background-color: rgb(157, 215, 114);}
+            &.imgBox3 {background-color: rgb(253, 206, 23);}
+            &.imgBox4 {background-color: rgb(253, 132, 70);}
+            &.imgBox5 {background-color: rgb(253, 86, 95);}
+        }
+        .textBox {
+            
+            flex-grow: 1;
+            
+            p { display: block; margin-bottom: 10px; font-size: 16px;}
+            span {font-size: 13px;}
+        }
+    }
+}
+
+.Editor {
+    padding: 40px 20px 0;
+    section {
+        
+        margin-bottom: 40px;
+        
+        strong {display: block; margin-bottom: 15px;}
+        input[type=date] { height: 40px;}
+        
+        .flexBox {
+            display: flex; align-items: center; justify-content: space-between;
+            .emotionBox {
+                
+                width: 18%; background-color: #eaeaea; text-align: center; border-radius: 5px; padding: 10px;
+                
+                img {width: 80%;}
+                span {display: block; margin-top: 10px;}
+                
+                &.emotion_on_1 {background-color: rgb(100, 201, 100); span {color: white;}}
+                &.emotion_on_2 {background-color: rgb(157, 215, 114); span {color: white;}}
+                &.emotion_on_3 {background-color: rgb(253, 206, 23); span {color: white;}}
+                &.emotion_on_4 {background-color: rgb(253, 132, 70); span {color: white;}}
+                &.emotion_on_5 {background-color: rgb(253, 86, 95); span {color: white;}}
+            }
+        }
+        
+        textarea {
+            width: 100%; height: 150px; padding: 15px; resize: none;
+        }
+    }
+}
+
+.Viewer {
+    
+    padding: 40px 20px;
+    
+    strong {display: block; margin-bottom: 20px; text-align: center; font-size: 18px;}
+    
+    
+    .imgBox {
+        
+        width: 80%; aspect-ratio: auto 1/1; display: flex; flex-direction: column; align-items: center; justify-content: center; margin:0 auto 60px;
+        
+        span {
+            display: block; margin-top: 20px; font-size: 25px; color: white;
+        }
+        
+        &.imgBox1 {background-color: rgb(100, 201, 100);}
+        &.imgBox2 {background-color: rgb(157, 215, 114);}
+        &.imgBox3 {background-color: rgb(253, 206, 23);}
+        &.imgBox4 {background-color: rgb(253, 132, 70);}
+        &.imgBox5 {background-color: rgb(253, 86, 95);}
+    }
+    
+    textarea {
+        width: 100%; height: 200px; display: block; resize: none; padding: 15px;
+    }
+}
