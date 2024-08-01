@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/diary/static/css/main.cd4fb8d8.css",
-    "main.js": "/diary/static/js/main.60f03c64.js",
-    "static/js/453.4fda6e97.chunk.js": "/diary/static/js/453.4fda6e97.chunk.js",
-    "index.html": "/diary/index.html",
-    "main.cd4fb8d8.css.map": "/diary/static/css/main.cd4fb8d8.css.map",
-    "main.60f03c64.js.map": "/diary/static/js/main.60f03c64.js.map",
-    "453.4fda6e97.chunk.js.map": "/diary/static/js/453.4fda6e97.chunk.js.map"
+    "main.css": "/react_diary/static/css/main.cd4fb8d8.css",
+    "main.js": "/react_diary/static/js/main.e362aed6.js",
+    "static/js/453.4fda6e97.chunk.js": "/react_diary/static/js/453.4fda6e97.chunk.js",
+    "index.html": "/react_diary/index.html",
+    "main.cd4fb8d8.css.map": "/react_diary/static/css/main.cd4fb8d8.css.map",
+    "main.e362aed6.js.map": "/react_diary/static/js/main.e362aed6.js.map",
+    "453.4fda6e97.chunk.js.map": "/react_diary/static/js/453.4fda6e97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd4fb8d8.css",
-    "static/js/main.60f03c64.js"
+    "static/js/main.e362aed6.js"
   ]
 }
